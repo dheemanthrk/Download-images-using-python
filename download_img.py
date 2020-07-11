@@ -3,7 +3,7 @@ import requests # to get image from the web
 import shutil # to save it locally
 
 ## Set up the image URL and filename
-image_url = "https://cdn.pixabay.com/photo/2020/02/06/09/39/summer-4823612_960_720.jpg"
+image_url = "https://c.ndtvimg.com/2020-03/dbtsg6n8_india-coronavirus-lockdown_650x400_22_March_20.jpg"
 filename = image_url.split("/")[-1]
 
 # Open the url image, set stream to True, this will return the stream content.
